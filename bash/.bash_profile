@@ -1,0 +1,2 @@
+# Load .bashrc for login shells
+[[ -f "$HOME/.bashrc" ]] && source "$HOME/.bashrc"

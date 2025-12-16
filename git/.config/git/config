@@ -1,0 +1,11 @@
+[alias]
+    tree = log --all --decorate --graph --oneline
+[init]
+    defaultBranch = main
+[pull]
+    rebase = true
+[push]
+    autoSetupRemote = true
+[user]
+    name = Fiquell Carter
+    email = fiquellcarter@gmail.com
