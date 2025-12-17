@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+MIN_CONFIG="$HOME/.config/Min"
+
+if [[ ! -d "$MIN_CONFIG" ]]; then
+    echo "Missing."
+    exit 1
+fi
+
+echo "Found."

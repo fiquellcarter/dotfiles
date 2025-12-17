@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+GIMP_CONFIG="$HOME/.config/GIMP"
+GIMP_CACHE="$HOME/.cache/gimp"
+SOURCE_ZIP="$HOME/.bin/share/PhotoGIMP-linux.zip"
+
+TMP_DIR=$(mktemp -d)
+trap 'rm -rf "$TMP_DIR"' EXIT
+
+EXTRACTED_GIMP="$TMP_DIR/PhotoGIMP-linux/.config/GIMP"
+
+if [[ ! -f "$SOURCE_ZIP" ]]; then
+    echo "ERROR: Source file not found: $SOURCE_ZIP"
+    exit 1
+fi
+
+if [[ -d "$GIMP_CONFIG" ]]; then
+    read -rp "Type 'yes' to continue, or anything else to cancel: " answer
+
+    if [[ "$answer" != "yes" ]]; then
+        echo "Aborted."
+        exit 0
+    fi
+fi
+
+rm -rf "$GIMP_CONFIG"
+rm -rf "$GIMP_CACHE"
+
+unzip -qo "$SOURCE_ZIP" -d "$TMP_DIR"
+
+if [[ ! -d "$EXTRACTED_GIMP" ]]; then
+    echo "ERROR: Failed to extract GIMP configuration from archive."
+    exit 1
+fi
+
+mv "$EXTRACTED_GIMP" "$GIMP_CONFIG"
