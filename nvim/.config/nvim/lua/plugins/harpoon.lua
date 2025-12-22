@@ -11,14 +11,14 @@ return {
 
         local keys = {
             {
-                "<C-a>",
+                "<Leader>h",
                 function()
                     harpoon:list():add()
                 end,
                 desc = "Harpoon File",
             },
             {
-                "<C-e>",
+                "<Leader>H",
                 function()
                     harpoon.ui:toggle_quick_menu(harpoon:list())
                 end,
