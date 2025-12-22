@@ -20,8 +20,12 @@ start_ssh_agent() {
 # Ensure agent has a key
 [[ -z "$SSH_AUTH_SOCK" ]] || ! ssh-add -l &>/dev/null && start_ssh_agent
 
-# eza aliases
+# Eza aliases
 alias ls="eza --icons=always --group-directories-first"
 alias lsa="ls -a"
 alias lt="eza --tree --icons=always --group-directories-first"
 alias lta="lt -a"
+
+# Git & Docker TUI aliases
+alias lg="lazygit"
+alias ld="lazydocker"
