@@ -7,13 +7,13 @@
         "branch": "main",
         "commit": "5ed01fc84e587e0883e7d04122684d768eb76bbc"
     },
-    "blink-copilot": {
-        "branch": "main",
-        "commit": "7ad8209b2f880a2840c94cdcd80ab4dc511d4f39"
-    },
     "blink.cmp": {
         "branch": "main",
         "commit": "b19413d214068f316c78978b08264ed1c41830ec"
+    },
+    "blink.compat": {
+        "branch": "main",
+        "commit": "2ed6d9a28b07fa6f3bface818470605f8896408c"
     },
     "bufferline.nvim": {
         "branch": "main",
@@ -27,14 +27,6 @@
         "branch": "master",
         "commit": "5420c4b5ea0aeb99c09cfbd4fd0b70d257b44f25"
     },
-    "copilot.lua": {
-        "branch": "master",
-        "commit": "e78d1ffebdf6ccb6fd8be4e6898030c1cf5f9b64"
-    },
-    "dial.nvim": {
-        "branch": "master",
-        "commit": "f2634758455cfa52a8acea6f142dcd6271a1bf57"
-    },
     "flash.nvim": {
         "branch": "main",
         "commit": "fcea7ff883235d9024dc41e638f164a450c14ca2"
@@ -45,7 +37,7 @@
     },
     "gitsigns.nvim": {
         "branch": "main",
-        "commit": "e895b811bc63d8e9b9c93216f1fe99c51280c769"
+        "commit": "fb38d3b06f696f05513205d3652cf2467fea8f0a"
     },
     "grug-far.nvim": {
         "branch": "main",
@@ -54,10 +46,6 @@
     "harpoon": {
         "branch": "harpoon2",
         "commit": "87b1a3506211538f460786c23f98ec63ad9af4e5"
-    },
-    "inc-rename.nvim": {
-        "branch": "main",
-        "commit": "2597bccb57d1b570fbdbd4adf88b955f7ade715b"
     },
     "lazy.nvim": {
         "branch": "main",
@@ -86,10 +74,6 @@
     "mini.ai": {
         "branch": "main",
         "commit": "bfb26d9072670c3aaefab0f53024b2f3729c8083"
-    },
-    "mini.hipatterns": {
-        "branch": "main",
-        "commit": "add8d8abad602787377ec5d81f6b248605828e0f"
     },
     "mini.icons": {
         "branch": "main",
@@ -142,6 +126,10 @@
     "snacks.nvim": {
         "branch": "main",
         "commit": "fe7cfe9800a182274d0f868a74b7263b8c0c020b"
+    },
+    "supermaven-nvim": {
+        "branch": "main",
+        "commit": "07d20fce48a5629686aefb0a7cd4b25e33947d50"
     },
     "todo-comments.nvim": {
         "branch": "main",
