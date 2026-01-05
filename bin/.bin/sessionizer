@@ -4,9 +4,10 @@ set -euo pipefail
 
 SEARCH_DIRS=(
     "$HOME"
-    "$HOME/Programming/Personal"
-    "$HOME/Programming/Probe"
-    "$HOME/Programming/Work"
+    "$HOME/programming/personal"
+    "$HOME/programming/probe"
+    "$HOME/programming/tries"
+    "$HOME/programming/work"
 )
 
 switch_to_session() {
