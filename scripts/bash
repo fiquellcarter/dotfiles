@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+# FIX:
+#
+# - [ ] omarchy
+# - [ ] .bin
+# - [ ] php
+# - [ ] nvim
+#
+# TODO:
+#
+# - https://github.com/basecamp/omarchy
+# - https://github.com/ThePrimeagen/dev
+
+sudo pacman -Syu --needed --noconfirm git lolcat eza lazygit lazydocker
+
+if ! command -v spark &>/dev/null; then
+    sudo curl -fsSL https://raw.githubusercontent.com/holman/spark/master/spark -o /usr/local/bin/spark
+    sudo chmod +x /usr/local/bin/spark
+fi
