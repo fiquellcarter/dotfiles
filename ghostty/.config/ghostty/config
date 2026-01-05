@@ -1,0 +1,5 @@
+theme = TokyoNight
+font-family = "Iosevka"
+font-size = 12
+adjust-cell-height = 6
+keybind = ctrl+enter=unbind
