@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+git add .
+
+if git diff --cached --quiet; then
+    echo "Nothing to commit."
+    exit 0
+fi
+
+git commit -m "chore(dev): automated commit $(date +%Y%m%d-%H%M)"
+
+git push
