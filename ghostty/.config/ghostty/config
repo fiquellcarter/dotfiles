@@ -1,5 +1,23 @@
+# Set the terminal color theme
 theme = TokyoNight
+
+# Use Iosevka as the primary font
 font-family = "Iosevka"
-font-size = 12
+
+# Set the default font size
+font-size = 13
+
+# Add extra vertical spacing between rows
 adjust-cell-height = 6
+
+# Set horizontal window padding
+window-padding-x = 6
+
+# Set vertical window padding
+window-padding-y = 6
+
+# Keep padding visually balanced on resize
+window-padding-balance = true
+
+# Disable the default Ctrl+Enter keybinding
 keybind = ctrl+enter=unbind
