@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+if ! command -v lolcat &>/dev/null; then
+    echo "ERROR: lolcat not found."
+    exit 1
+fi
+
+if ! command -v spark &>/dev/null; then
+    echo "ERROR: spark not found."
+    exit 1
+fi
+
+clear && printf "\n" && seq 1 "$(tput cols)" | sort -R | spark | lolcat && printf "\n"
