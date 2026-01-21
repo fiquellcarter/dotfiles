@@ -5,14 +5,14 @@ set -euo pipefail
 MIN_CONFIG="$HOME/.config/Min"
 
 if [[ ! -d "$MIN_CONFIG" ]]; then
-    echo "Nothing to remove."
+    echo "Nothing to remove"
     exit 0
 fi
 
 read -rp "Type 'yes' to continue, or anything else to cancel: " answer
 
 if [[ "$answer" != "yes" ]]; then
-    echo "Aborted."
+    echo "Aborted"
     exit 0
 fi
 

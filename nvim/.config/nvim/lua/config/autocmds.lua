@@ -1,4 +1,7 @@
+local FiquellCarterGroup = vim.api.nvim_create_augroup("FiquellCarter", {})
+
 vim.api.nvim_create_autocmd("BufWritePre", {
+    group = FiquellCarterGroup,
     pattern = "*",
     callback = function()
         local save_cursor = vim.fn.getpos(".")

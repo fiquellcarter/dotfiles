@@ -1,11 +1,17 @@
-[alias]
-    tree = log --all --decorate --graph --oneline
+[branch]
+	sort = -committerdate
 [init]
     defaultBranch = main
 [pull]
     rebase = true
 [push]
     autoSetupRemote = true
+[rebase]
+    autoStash = true
+[tag]
+    sort = -version:refname
+[url "git@github.com:"]
+    insteadOf = "gh:"
 [user]
     name = Fiquell Carter
     email = fiquellcarter@gmail.com

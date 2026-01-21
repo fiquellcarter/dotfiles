@@ -3,12 +3,12 @@
 set -euo pipefail
 
 if ! command -v lolcat &>/dev/null; then
-    echo "ERROR: lolcat not found."
+    echo "ERROR: lolcat not found"
     exit 1
 fi
 
 if ! command -v spark &>/dev/null; then
-    echo "ERROR: spark not found."
+    echo "ERROR: spark not found"
     exit 1
 fi
 

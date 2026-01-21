@@ -18,6 +18,6 @@ require("lazy").setup({
         { "LazyVim/LazyVim", import = "lazyvim.plugins" },
         { import = "plugins" },
     },
-    install = { colorscheme = { "tokyonight", "habamax" } },
+    install = { colorscheme = { "catppuccin", "habamax" } },
     checker = { enabled = true, notify = false },
 })
