@@ -23,8 +23,8 @@ if [[ $# -eq 1 ]]; then
 elif [[ $# -eq 0 ]]; then
     selected=$(find "${SEARCH_DIRS[@]}" -mindepth 1 -maxdepth 1 -type d 2>/dev/null | fzf)
 else
-    echo "Usage: $(basename "$0") [directory]"
-    exit 1
+    echo "ERROR: Usage: $(basename "$0") [directory]" >&2
+    exit 2
 fi
 
 if [[ -z "$selected" ]]; then
