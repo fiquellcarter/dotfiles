@@ -15,25 +15,9 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
     spec = {
-        {
-            "LazyVim/LazyVim",
-            import = "lazyvim.plugins",
-            opts = {
-                colorscheme = "catppuccin",
-            },
-        },
-        {
-            import = "plugins",
-        },
+        { "LazyVim/LazyVim", import = "lazyvim.plugins", opts = { colorscheme = "catppuccin" } },
+        { import = "plugins" },
     },
-    install = {
-        colorscheme = {
-            "catppuccin",
-            "habamax",
-        },
-    },
-    checker = {
-        enabled = true,
-        notify = false,
-    },
+    install = { colorscheme = { "catppuccin", "habamax" } },
+    checker = { enabled = true, notify = false },
 })
