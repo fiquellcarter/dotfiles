@@ -5,7 +5,7 @@
     },
     "SchemaStore.nvim": {
         "branch": "main",
-        "commit": "cd9e8c22f6ad2012ac395725080cc5737297d840"
+        "commit": "9b6a3ab14cecc7da9f3aa4fa0ae2a7390748aca5"
     },
     "blink.cmp": {
         "branch": "main",
@@ -41,7 +41,7 @@
     },
     "grug-far.nvim": {
         "branch": "main",
-        "commit": "1f7a722a9b9f0206a345377c13e62542f484398a"
+        "commit": "14babc9b4520184d9696ef282eb7ac20687d4373"
     },
     "harpoon": {
         "branch": "harpoon2",
@@ -65,7 +65,7 @@
     },
     "mason-lspconfig.nvim": {
         "branch": "main",
-        "commit": "4823a251e7578a835bb979c37df390fca692ba39"
+        "commit": "c953789db7fd28eafe5eb5659846d34b5024b3cc"
     },
     "mason.nvim": {
         "branch": "main",
@@ -74,10 +74,6 @@
     "mini.ai": {
         "branch": "main",
         "commit": "9eae720f2b20f6ad28cbfa0ddc524e10dc2c3201"
-    },
-    "mini.hipatterns": {
-        "branch": "main",
-        "commit": "add8d8abad602787377ec5d81f6b248605828e0f"
     },
     "mini.icons": {
         "branch": "main",
@@ -89,7 +85,7 @@
     },
     "neo-tree.nvim": {
         "branch": "main",
-        "commit": "1bd82358e516e3043796e207e64f50a11574af6e"
+        "commit": "466ba7ac7e4841a73d01afa48b6be8a4825a2372"
     },
     "noice.nvim": {
         "branch": "main",
@@ -101,19 +97,19 @@
     },
     "nvim-lint": {
         "branch": "master",
-        "commit": "ca6ea12daf0a4d92dc24c5c9ae22a1f0418ade37"
+        "commit": "bcd1a44edbea8cd473af7e7582d3f7ffc60d8e81"
     },
     "nvim-lspconfig": {
         "branch": "master",
-        "commit": "419b082102fa813739588dd82e19a8b6b2442855"
+        "commit": "3f58aeca0c6ece8a9fb8782ea3fcb6024f285be3"
     },
     "nvim-treesitter": {
         "branch": "main",
-        "commit": "568ede7e79172a0fe7c9d631454a97ad968deaf2"
+        "commit": "4967fa48b0fe7a7f92cee546c76bb4bb61bb14d5"
     },
     "nvim-treesitter-textobjects": {
         "branch": "main",
-        "commit": "52bda74e087034408e2d563cb4499c1601038f9d"
+        "commit": "a0e182ae21fda68c59d1f36c9ed45600aef50311"
     },
     "nvim-ts-autotag": {
         "branch": "main",
@@ -129,7 +125,7 @@
     },
     "render-markdown.nvim": {
         "branch": "main",
-        "commit": "c54380dd4d8d1738b9691a7c349ecad7967ac12e"
+        "commit": "48934b49a2363b49ae1d698ed4cb30fb79d7efe8"
     },
     "snacks.nvim": {
         "branch": "main",
